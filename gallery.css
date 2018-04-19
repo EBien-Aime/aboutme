@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color: white;
+  background-color: black;
+}
+
+.wrapper{
+width: 100%;
+margin: 0 auto;
+/* border: 1px solid orange; */
+margin-top: 0;
+}
+
+nav{
+position: fixed;
+/* border: 2px solid orange; */
+background-color: black;
+color: white;
+width: 100%;
+
+}
+
+li{
+  /* position: relative; */
+  font-size: 35px;
+  font-family: "Lucida Grande";
+  /* left: 425px; */
+  padding-left: 40px;
+  display: inline;
+  margin: 0 auto;
+}
+
+a:link{
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+.contentimage{
+  /* border: 2px solid purple; */
+  background-image: url("images/doitagain.png");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  display: inline-block;
+  width: 195px;
+  height: 195px;
+  margin: 0px auto;
+  float: left;
+  margin-left: 150px;
+}
+
+.blerb {
+  /* border: 2px solid red; */
+  margin: 0px auto;
+  width: 500px;
+  /* margin-top: 50px; */
+}
+
+.source{
+  /* border: 2px solid teal; */
+  margin: 0px auto;
+  width: 50%;
+  height: 650px;
+}
+
+.gallery{
+  display: ;
+  margin: 0px 400px;
+}
+
+@media all and (max-width: 786px){
+  .gallery{
+    margin-top: 0px;
+    width: 400;
+    margin-left: 0;
+  }
+  }
+
+  @media all and (max-width: 480px){
+    body{
+      background-color: white;
+    }
+
+    .gallery{
+      margin-top: 0px;
+      width: 400px;
+      margin-left: 0;
+    }
+  }
