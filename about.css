@@ -10,27 +10,20 @@ body{
   nav{
   position: fixed;
   margin-top: 0px;
-  /* border: 2px solid orange; */
   background-color: black;
   color: white;
   width: 100%;
   }
 
   li{
-    /* border: 2px solid red; */
     position: relative;
-    /* margin-right: auto; */
-    /* margin-left: auto; */
     font-size: 35px;
     font-family: "Lucida Grande";
-    /* left: 500px; */
     padding-left: 40px;
     display: inline;
-    /* margin: 0 25px; */
   }
 
   .blerb{
-    /* border: 5px solid yellow; */
     width: 50%;
     display: inline-block;
     margin: 50px 400px;
@@ -45,7 +38,6 @@ body{
 
 @media all and (max-width: 786px){
   .blerb{
-    /* border: 5px solid yellow; */
     width: 80%;
     display: inline-block;
     margin: 90px 0px;
