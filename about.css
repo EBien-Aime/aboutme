@@ -29,6 +29,12 @@ body{
     /* margin: 0 25px; */
   }
 
+  .blerb{
+    /* border: 5px solid yellow; */
+    display: inline-block;
+    margin: 50px 160px;
+  }
+
   a:link{
     color: white;
   }
