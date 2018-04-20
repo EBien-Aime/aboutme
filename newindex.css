@@ -2,39 +2,33 @@
   margin: 0;
   padding: 0;
 }
+
 body{
   color: white;
   font-family: "Lucida Grande";
   background-color: black;
 }
+
 .wrapper{
 width: 100%;
 margin: 0 auto;
-/* border: 1px solid orange; */
 margin-top: 0;
 }
 
 nav{
 position: fixed;
 margin-top: 0px;
-/* border: 2px solid orange; */
 background-color: black;
 color: white;
 width: 100%;
-
 }
 
 li{
-  /* border: 2px solid red; */
   position: relative;
-  /* margin-right: auto; */
-  /* margin-left: auto; */
   font-size: 35px;
   font-family: "Lucida Grande";
-  /* left: 500px; */
   padding-left: 40px;
   display: inline;
-  /* margin: 0 25px; */
 }
 
 a:link{
@@ -45,7 +39,6 @@ a:visited {
 }
 
 .contentimage{
-  /* border: 2px solid purple; */
   background-image: url("images/doitagain.png");
   background-size: 100% 100%;
   border-radius: 50%;
@@ -59,7 +52,6 @@ a:visited {
 }
 
 .blerb {
-  /* border: 2px solid red; */
   margin: 0px auto;
   width: 500px;
   margin-top: 0px;
@@ -67,28 +59,25 @@ a:visited {
 }
 
 .source{
-  /* border: 2px solid teal; */
   margin: 0px auto;
   width: 50%;
   height: 650px;
-
 }
 
 @media all and (max-width: 992px){
   .contentimage{
     margin-left: 300px;
     margin-top: 0px;
-}
+  }
 
 .blerb{
   display: inline-block;
   margin: 0 160px;
-}
+  }
 
 nav{
   margin-top: 0px;
-}
-
+  }
 }
 
 @media all and (max-width: 786px){
@@ -109,8 +98,8 @@ li{
 }
 .source{
   width:500px;
-}
   }
+}
 @media all and (max-width: 480px) {
   body{
     background-color: white;
@@ -125,10 +114,9 @@ li{
     left: 0px;
   }
 .contentimage{
-  /* position: relative; */
   margin-left: 100px;
   margin-top: 155px;
-}
+  }
 
   .source{
     margin-top: -100px;
