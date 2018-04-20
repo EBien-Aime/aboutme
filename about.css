@@ -31,8 +31,9 @@ body{
 
   .blerb{
     /* border: 5px solid yellow; */
+    width: 50%;
     display: inline-block;
-    margin: 50px 160px;
+    margin: 50px 400px;
   }
 
   a:link{
@@ -41,3 +42,12 @@ body{
   a:visited {
     color: white;
   }
+
+@media all and (max-width: 786px){
+  .blerb{
+    /* border: 5px solid yellow; */
+    width: 80%;
+    display: inline-block;
+    margin: 90px 0px;
+  }
+}
